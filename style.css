@@ -1,6 +1,10 @@
 body{
+    background-color: black;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif !important;
+}
+a{
+    text-decoration: none;
 }
 
 p{
@@ -17,6 +21,17 @@ h3{
 }
 
 .nav{
+    font-family: inter !important;
+    font-weight: 600;
+    margin-top: 50px;
     display: flex;
-    flex-direction: rows;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    justify-content: space-around;
+}
+
+.nav-links{
+    color: white;
 }
